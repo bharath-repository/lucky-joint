@@ -1,8 +1,11 @@
+const path = require("path");
 const express = require('express');
 const app = express();
 
+app.use('/home', express.static(path.join(__dirname,'public')));
+
 app.get('/', (req,res)=>{
-    res.send('hi there!!!');
+    res.sendFile('/home/knight/git/lucky-joint/public/index.html')
 });
 
 app.listen(3000, (req,res)=>{
