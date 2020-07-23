@@ -1,0 +1,21 @@
+{
+  "name": "lucky-joint",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "bharath",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "github.com/bharath-repository/lucky-joint.git"
+  },
+  "description": "",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
