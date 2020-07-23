@@ -1,0 +1,25 @@
+$git init 						//initialize local git repository
+$git add <file>    					//add file to staging area
+$git status 						//get the status working directory
+$git commit						//commit changes in index
+$git push 						//push to remote repository
+$git pull						//pull latest from remote repository
+$git clone						//clone repository into a new directory
+$git config --global user.name "knight"
+$git config --global user.email "sk.bharath.be@gmail.com"
+$git rm --cache <filename>				//to unstage the file from staging area
+$git add .						//add every file in the directory to staging area
+$git commit						//move file from staging area to commit area
+$git commit -m "Changed app.js"
+
+#branch
+
+$git branch <my-branch-name>				//when working as a team branch will be helpful 
+$git checkout <name-of-the-destination-branch>		//to switch between branch 
+$git merge <destination-branch>				//here merging branch with master before merge you switch to master
+
+#remote repository
+$git remote						//to list remote repositories
+$git remote add origin https://github.com/bharath-repository/lucky-joint.git		//adding a remote repository
+$git push -u origin master
+
